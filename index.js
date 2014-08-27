@@ -5,7 +5,7 @@ var request = require('request')
 var port = process.env.PORT || 8080
 
 http.createServer(function (req, res) {
-  res.setTimeout(2500)
+  res.setTimeout(25000)
   res.setHeader('Access-Control-Allow-Origin', '*')
   try {
     request(req.url.slice(1), {encoding: null}, function(error, response, body) {
