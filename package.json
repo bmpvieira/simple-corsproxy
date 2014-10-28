@@ -23,7 +23,7 @@
   ],
   "main": "index.js",
   "bin": {
-    "simple-corsproxy": "cli.js"
+    "simple-corsproxy": "index.js"
   },
   "scripts": {
     "start": "node index.js"
